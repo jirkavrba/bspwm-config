@@ -1,0 +1,14 @@
+#! /bin/env bash
+bspc config border_width 5
+bspc config window_gap 20
+
+bspc config split_ratio 0.5
+bspc config focus_follows_pointer true
+
+bspc monitor -d • • • • • • • • • •
+
+# Map caps lock to escape
+xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+
+# Hide cursor on typing
+unclutter -idle 1 &
