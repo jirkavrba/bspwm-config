@@ -1,5 +1,17 @@
 ctrl + Escape
 	pkill -USR1 -x sxhkd; notify-send "Sxhkd configuration reloaded"
+	
+ctrl + shift + Escape
+	killall polybar; \
+	polybar main &; \
+	notify-send "Polybar reloaded"
+
+alt + Escape
+	setxkbmap -option "caps:escape"
+
+# reset the monitors
+ctrl + alt + shift + d
+	xrandr --auto
 
 super + Return
 	kitty

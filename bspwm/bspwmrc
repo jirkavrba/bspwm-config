@@ -6,11 +6,12 @@ done
 sxhkd 2> ~/.sxhkd.log &
 
 bspc config border_width 5
-bspc config window_gap 20
-
+bspc config window_gap 10
 bspc config split_ratio 0.5
 bspc config focus_follows_pointer true
 
+bspc config normal_border_color "#283d3b"
+bspc config focused_border_color "#f2bb05"
 
 feh --bg-scale ~/.bspwm/wallpaper.jpg
 
@@ -19,3 +20,5 @@ setxkbmap -option "caps:escape"
 
 # Hide cursor on typing
 unclutter -idle 1 &
+
+polybar main &
