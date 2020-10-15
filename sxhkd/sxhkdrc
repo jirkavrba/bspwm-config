@@ -1,2 +1,39 @@
 ctrl + Escape
 	pkill -USR1 -x sxhkd; notify-send "Sxhkd configuration reloaded"
+
+super + Return
+	kitty
+
+super + d
+	rofi -show run
+
+super + {1-9,0}
+	bspc desktop -f '^{1-9,10}'
+
+super + shift + {1-9,0}
+	bspc node -d '^{1-9,10}' --follow
+
+super + shift + s 
+	flameshot gui
+
+ctrl + alt + l
+	xsecurelock
+	
+{XF86AudioRaiseVolume, XF86AudioLowerVolume}
+	pactl set-sink-volume @DEFAULT_SINK@ {+5%,-5%}
+
+XF86AudioMute
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+XF86MonBrightnessUp
+	light -A 5
+	
+XF86MonBrightnessDown
+	light -U 5
+
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+super + shift + q
+	bspc node -k
+
