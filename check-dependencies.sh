@@ -4,7 +4,8 @@ function check_command {
 	if ! command -v $1 &> /dev/null
 	then
 	    echo -e "\e[91m$1\e[39m could not be found."
-	    exit
+	else
+	    echo -e "\e[32m$1\e[39m OK"
 	fi
 }
 
