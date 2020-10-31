@@ -9,7 +9,7 @@ function check_command {
 	fi
 }
 
-declare -a requirements=("bspwm" "bspc" "git" "xsecurelock" "unclutter" "feh" "notify-send" "kitty" "rofi" "flameshot" "light" "arandr")
+declare -a requirements=("bspwm" "bspc" "sxhkd" "git" "xsecurelock" "unclutter" "feh" "notify-send" "kitty" "rofi" "flameshot" "light" "arandr" "polybar")
 
 for requirement in ${requirements[@]}; do
 	check_command $requirement
