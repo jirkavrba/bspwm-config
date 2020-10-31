@@ -48,7 +48,7 @@ enable-ipc = true
 ;== Module Location ========================================================
 
 modules-left = bspwm 
-modules-right = volume battery network date
+modules-right = volume battery network date keyboard
  
 ;== Modules ========================================================
 
@@ -114,3 +114,8 @@ type = internal/date
 interval = 1
 label =  TIME: %time%
 time = %H:%M:%S 
+
+[module/keyboard]
+type = internal/xkeyboard
+format = <label-layout>
+label-layout = %name%

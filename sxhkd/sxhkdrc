@@ -9,6 +9,9 @@ ctrl + shift + Escape
 alt + Escape
 	setxkbmap -option "caps:escape"
 
+super + space
+  {setxkbmap cz_qwerty, setxkbmap us}
+
 # reset the monitors
 ctrl + alt + shift + d
 	xrandr --auto
