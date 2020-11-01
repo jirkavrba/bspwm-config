@@ -54,3 +54,8 @@ super + shift + q
 
 super + shift + e
 	bspc quit
+
+# alternate between the tiled and monocle layout
+super + f
+	bspc desktop -l next
+

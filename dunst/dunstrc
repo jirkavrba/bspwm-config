@@ -1,0 +1,26 @@
+[global]
+	monitor = 0
+	follow = mouse
+	geometry = "400x50-30-30"
+	padding = 10
+	horizontal_padding = 10
+	frame_width = 3
+	frame_color = "#dd6e42"
+	font = Cascadia code 10
+	markup = full
+	format = "<b>%a</b>\n%s\n%b"
+
+[urgency_low]
+	background = "#283d3b"
+	foreground = "#f0f0c9"
+	frame_color = "#f2bb05"
+
+[urgency_normal]
+	background = "#283d3b"
+	foreground = "#f0f0c9"
+	frame_color = "#f2bb05"
+
+[urgency_critical]
+	background = "#283d3b"
+	foreground = "#dd6e42"
+	frame_color = "#dd6e42"

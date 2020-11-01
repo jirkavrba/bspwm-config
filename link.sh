@@ -7,3 +7,4 @@ ln -s $PWD/.bspwm ~/.bspwm
 ln -s $PWD/bspwm ~/.config/bspwm
 ln -s $PWD/sxhkd ~/.config/sxhkd
 ln -s $PWD/polybar ~/.config/polybar
+ln -s $PWD/dunst ~/.config/dunst
