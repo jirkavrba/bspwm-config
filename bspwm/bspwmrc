@@ -22,3 +22,5 @@ setxkbmap -option "caps:escape"
 unclutter -idle 1 &
 
 polybar main &
+
+compton &

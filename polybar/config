@@ -98,7 +98,7 @@ label-muted = MUTED
 
 [module/network]
 type = internal/network
-interface = wlp4s0
+interface = wlan0
 interval = 1.0
 format-connected = WIFI: <label-connected>
 format-disconnected = WIFI: <label-disconnected>
@@ -118,4 +118,4 @@ time = %H:%M:%S
 [module/keyboard]
 type = internal/xkeyboard
 format = <label-layout>
-label-layout = %name%
+label-layout = %layout%

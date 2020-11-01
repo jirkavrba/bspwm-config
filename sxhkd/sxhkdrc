@@ -52,3 +52,5 @@ super + {_,shift + }{h,j,k,l}
 super + shift + q
 	bspc node -k
 
+super + shift + e
+	bspc quit
