@@ -23,8 +23,9 @@ unclutter -idle 1 &
 
 polybar main &
 compton &
+pasystray &
 nm-applet &
-albert &
+ulauncher &
 
 # IntelliJ Idea hack
 wmname LG3D

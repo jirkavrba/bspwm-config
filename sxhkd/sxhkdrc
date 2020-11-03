@@ -20,7 +20,7 @@ super + Return
 	kitty
 
 super + d
-	albert toggle
+	ulauncher --no-window-shadow
 #	rofi -show run
 
 super + {1-9,0}
